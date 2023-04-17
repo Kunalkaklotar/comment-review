@@ -1,0 +1,176 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.comment-section {
+  padding: 100px 0;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.container {
+  width: 1320px;
+  margin: 0 auto;
+}
+
+p{
+  color: red;
+}
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 20px 0;
+  background-color: white;
+  height: auto;
+}
+
+.image {
+  width: 40%;
+  height: 300px;
+  padding: 15px;
+  text-align: center;
+}
+
+.image img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.image button,
+.content button {
+  position: relative;
+  background-color: blue;
+  color: white;
+  padding: 12px 30px;
+  border: none;
+  display: inline-block;
+  margin: 20px 50px 0 0;
+  margin-left: 0px;
+  cursor: pointer;
+  font-size: 16px;
+  font-weight: 600;
+  overflow: hidden;
+}
+
+.content {
+  width: 60%;
+  padding: 15px;
+}
+
+.content .title {
+  text-align: center;
+  text-transform: capitalize;
+  font-size: 35px;
+  font-weight: 800;
+  color: black;
+  letter-spacing: 0.5px;
+  margin-bottom: 25px;
+}
+
+.content .description {
+  color: black;
+  font-size: 16px;
+  font-weight: 600;
+  padding: 15px 0;
+}
+
+.content .price {
+  color: green;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.content .disc {
+  color: red;
+  font-size: 18px;
+  font-weight: 600;
+  margin-left: 10px;
+}
+
+.content .rating {
+  background-color: green;
+  margin: 10px 0;
+  width: fit-content;
+  padding: 5px;
+  color: white;
+  font-size: 13px;
+  font-weight: 600;
+  border-radius: 5px;
+}
+
+.content .rating i {
+  font-size: 10px;
+  margin-left: 3px;
+}
+
+.content .brand {
+  font-size: 20px;
+  font-weight: 600;
+  color: black;
+}
+
+.content .category {
+  margin: 5px 0 15px;
+  font-size: 18px;
+  font-weight: 400;
+  color: black;
+  text-transform: capitalize;
+}
+
+.content button {
+  display: block;
+  margin: 0 auto;
+}
+
+.comment-section .row1 {
+  padding-top: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.row1 input {
+  margin-right: 220px;
+}
+
+.comment-section form {
+  width: 100%;
+  border: 1px solid black;
+  border-radius: 15px;
+  padding: 15px;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+.comment-section form .text {
+  width: 20%;
+  padding: 2px 0;
+  padding-left: 20px;
+  outline: none;
+}
+
+.comment-section form .email {
+  margin: 30px 0;
+  width: 86%;
+  padding-bottom: 10px;
+  padding-left: 10px;
+  padding-top: 10px;
+  outline: none;
+}
+
+.comment-section form .submit {
+  display: block;
+  border: 1px solid black;
+  margin: auto;
+  background-color: transparent;
+  padding: 12px 30px;
+  font-size: 17px;
+  font-weight: 600;
+}
